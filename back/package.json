@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start-development": "node ./src/index.js env=DEVELOPMENT",
+    "start-staging": "node ./src/index.js env=STAGING",
+    "start-production": "node ./src/index.js env=PRODUCTION",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "braintree": "^2.12.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.16.0",
+  },
+  "devDependencies": {
+    "node-hot-loader": "^1.10.1",
+    "webpack": "^4.16.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "DEVELOPMENT",
+    "port": 80,
+
+    "databaseHost": "",
+    "databaseName": "backend",
+    "databaseUser": "",
+    "databasePassword": ""
+}

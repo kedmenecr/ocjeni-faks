@@ -1,0 +1,22 @@
+{
+    "name": "PRODUCTION",
+    "port": "0",
+
+    "databaseHost": "",
+    "databaseName": "",
+    "databaseUser": "",
+    "databasePassword": "",
+
+    "authentication": {
+        "jwt": {
+            "secret": "bafc92b727a5b10342314bf134a657728c7dce98de64d37aca72852d20cd0399bdabe785d6475f3e04ed8018bc7f7f40321acf7eda6689073986cc3f23cdf8ba69df601948512a935037a81231abe94eb251fc2220bbdf6895a8a987d14bbe2b04f85784def66528ff22bb3a898136c7c73ba9ec1ebb59ed19c670175b20efdc21bb4b6fc76e5e5bb4265d3ff85b1c6345585424ada830b8fc49d9c14e1ee038a2157ee3c40b327ac3cc7c3226a0933488ebf520ec45f090917a31eb1cf770b82ba1ce05c86681738547d9c0262221e490c25a9e9dd0be2e96b849a7cefe10a66eb41a9b6c5eb93ec0a7f646cef48ee06fd6697b8b02159382fd5d98eb3f6f16",
+            "expiresIn": "365d",
+            "audience": "",
+            "issuer": "",
+            "subject": "anonymous"
+        },
+        "bcrypt": {
+            "saltRounds": 12 
+        }
+    }
+}
